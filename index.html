@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./profile/favicon.ico" />
+    <title>Sandi Koswara</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#welcome-section" class="logo">Sandi <span>Koswara</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav id="navbar" class="navbar">
+        <a href="#welcome-section" class="active">Home</a>
+        <a href="https://blog.sandikoswara.com" target="_blank">Blog</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="welcome-section" id="welcome-section">
+      <div class="welcome-content">
+        <h3>Front-End Developer</h3>
+        <h1>Hello, I'm <span>Sandi</span></h1>
+        <p>
+          I'm an aspiring front-end developer with a passion for creating
+          dynamic and user-friendly web applications. I am based in West Java,
+          Indonesia📍
+        </p>
+
+        <div class="contact-links">
+          <a
+            id="profile-link"
+            href="https://www.linkedin.com/in/sandikoswara/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            id="github-link"
+            href="https://github.com/Sandi-Koswara"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="skill-container">
+          <p>My Skills</p>
+          <div class="skill-logo-container">
+            <div class="skill-logo">
+              <div class="skill-logo-slide">
+                <img src="icons/html.svg" alt="html" />
+                <img src="icons/css.svg" alt="css" />
+                <img src="icons/javascript.svg" alt="javascript" />
+                <img src="icons/react.svg" alt="react" />
+                <img src="icons/tailwindcss.svg" alt="tailwind" />
+                <img src="icons/expo.svg" alt="expo" />
+                <img src="icons/typescript.svg" alt="typescript" />
+                <img src="icons/nextjs.svg" alt="next" />
+                <img src="icons/mui.svg" alt="mui" />
+              </div>
+              <div class="skill-logo-slide">
+                <img src="icons/html.svg" alt="html" />
+                <img src="icons/css.svg" alt="css" />
+                <img src="icons/javascript.svg" alt="javascript" />
+                <img src="icons/react.svg" alt="react" />
+                <img src="icons/tailwindcss.svg" alt="tailwind" />
+                <img src="icons/expo.svg" alt="expo" />
+                <img src="icons/typescript.svg" alt="typescript" />
+                <img src="icons/nextjs.svg" alt="next" />
+                <img src="icons/mui.svg" alt="mui" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="home-img">
+        <img
+          src="profile/profile-800x600.png"
+          srcset="
+            profile/profile-400x300.png   400w,
+            profile/profile-800x600.png   800w,
+            profile/profile-1200x900.png 1200w
+          "
+          sizes="(max-width: 600px) 400px,
+            (max-width: 900px) 800px,
+            1200px"
+          alt="Profile Photo"
+        />
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+
+      <div class="project-container">
+        <input type="radio" name="slider" id="s1" checked />
+        <input type="radio" name="slider" id="s2" />
+        <input type="radio" name="slider" id="s3" />
+        <input type="radio" name="slider" id="s4" />
+        <input type="radio" name="slider" id="s5" />
+
+        <div class="project-tile">
+          <label for="s1" id="slide1">
+            <div class="project-item">
+              <div class="project-item-title">
+                <a href="#projects" class="project-name"
+                  >Copy Manager (Android Mobile App)</a
+                >
+                <div class="project-item-tag">
+                  <p>#CSS</p>
+                  <p>#JSX</p>
+                  <p>#Expo</p>
+                  <p>#ReactNative</p>
+                  <p>#NativeWind</p>
+                </div>
+              </div>
+              <div class="project-item-image" id="image1">
+                <img
+                  src="Projects/copymanager.png"
+                  class="transformed"
+                  loading="lazy"
+                />
+                <div class="project-item-button">
+                  <a
+                    class="download"
+                    href="https://sandikoswara.com/Downloads/Copas%20Manager%20(V1).apk"
+                    target="_blank"
+                  >
+                    Download
+                  </a>
+                </div>
+              </div>
+            </div>
+          </label>
+
+          <label for="s2" id="slide2">
+            <div class="project-item">
+              <div class="project-item-title">
+                <a href="#projects" class="project-name">Pokemon Search App</a>
+                <div class="project-item-tag">
+                  <p>#HTML</p>
+                  <p>#CSS</p>
+                  <p>#JavaScript</p>
+                </div>
+              </div>
+              <div class="project-item-image" id="image2">
+                <img src="Projects/pokemon-search-app.png" loading="lazy" />
+                <div class="project-item-button">
+                  <a
+                    class="visit"
+                    href="https://github.com/Sandi-Koswara/Freecodecamp-Project/tree/main/Project/pokemon-search-app"
+                    target="_blank"
+                  >
+                    Visit Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </label>
+
+          <label for="s3" id="slide3">
+            <div class="project-item">
+              <div class="project-item-title">
+                <a href="#projects" class="project-name">Dashboard Ecommerce</a>
+                <div class="project-item-tag">
+                  <p>#CSS</p>
+                  <p>#JSX</p>
+                  <p>#React</p>
+                  <p>#Bootstrap</p>
+                  <p>#Material-UI</p>
+                </div>
+              </div>
+              <div class="project-item-image" id="image3">
+                <img src="Projects/ecommercedashboard.png" loading="lazy" />
+                <div class="project-item-button">
+                  <a
+                    class="visit"
+                    href="https://github.com/Sandi-Koswara/Belanja"
+                    target="_blank"
+                  >
+                    Visit Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </label>
+
+          <label for="s4" id="slide4">
+            <div class="project-item">
+              <div class="project-item-title">
+                <a href="#projects" class="project-name">SOS Game</a>
+                <div class="project-item-tag">
+                  <p>#CSS</p>
+                  <p>#JSX</p>
+                  <p>#React</p>
+                  <p>#TailwindCSS</p>
+                </div>
+              </div>
+              <div class="project-item-image" id="image4">
+                <img src="Projects/sosgame.png" loading="lazy" />
+                <div class="project-item-button">
+                  <a
+                    class="visit"
+                    href="https://gamesquare.sandikoswara.com"
+                    target="_blank"
+                  >
+                    Visit Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </label>
+
+          <label for="s5" id="slide5">
+            <div class="project-item">
+              <div class="project-item-title">
+                <a href="#projects" class="project-name">Ecommerce</a>
+                <div class="project-item-tag">
+                  <p>#CSS</p>
+                  <p>#JSX</p>
+                  <p>#React</p>
+                  <p>#Bootstrap</p>
+                  <p>#Material-UI</p>
+                </div>
+              </div>
+              <div class="project-item-image" id="image5">
+                <img src="Projects/ecommerce.png" loading="lazy" />
+                <div class="project-item-button">
+                  <a class="visit" href="/" target="_blank"> On Progress... </a>
+                </div>
+              </div>
+            </div>
+          </label>
+        </div>
+
+        <div class="dots">
+          <div class="active"></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" />
+            <input type="email" name="email" placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <input type="number" name="phone" placeholder="Phone Number" />
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+    <div class="alert"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
